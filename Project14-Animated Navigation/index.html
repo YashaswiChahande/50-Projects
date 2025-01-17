@@ -6,78 +6,21 @@
     <link rel="stylesheet" href="style.css">
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>FAQ Collapse</title>
+    <title>Animated Navigation</title>
 </head>
 <body>
-    <h1>Frequently Asked Questions</h1>
-    <div class="faq-container">
-      <div class="faq active">
-        <h3 class="faq-title">
-          Why shouldn't we trust atoms?
-        </h3>
-
-        <p class="faq-text">
-          They make up everything
-        </p>
-
-        <button class="faq-toggle">
-          <i class="fas fa-chevron-down"></i>
-          <i class="fas fa-times"></i>
-        </button>
-      </div>
-
-      <div class="faq">
-        <h3 class="faq-title">
-          What do you call someone with no body and no nose?
-        </h3>
-        <p class="faq-text">
-          Nobody knows.
-        </p>
-        <button class="faq-toggle">
-          <i class="fas fa-chevron-down"></i>
-          <i class="fas fa-times"></i>
-        </button>
-      </div>
-      
-      <div class="faq">
-        <h3 class="faq-title">
-          What's the object-oriented way to become wealthy?
-        </h3>
-        <p class="faq-text">
-          Inheritance.
-        </p>
-        <button class="faq-toggle">
-          <i class="fas fa-chevron-down"></i>
-          <i class="fas fa-times"></i>
-        </button>
-      </div>
-      
-      <div class="faq">
-        <h3 class="faq-title">
-          How many tickles does it take to tickle an octopus?
-        </h3>
-        <p class="faq-text">
-          Ten-tickles!
-        </p>
-        <button class="faq-toggle">
-          <i class="fas fa-chevron-down"></i>
-          <i class="fas fa-times"></i>
-        </button>
-      </div>
-      
-      <div class="faq">
-        <h3 class="faq-title">
-          What is: 1 + 1?
-        </h3>
-        <p class="faq-text">
-          Depends on who are you asking.
-        </p>
-        <button class="faq-toggle">
-          <i class="fas fa-chevron-down"></i>
-          <i class="fas fa-times"></i>
-        </button>
-      </div>
-    </div>
+    <nav class="active" id="nav">
+      <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Works</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+    <button class="icon" id="toggle">
+      <div class="line line1"></div>
+      <div class="line line2"></div>
+    </button>
+    </nav>
     <script src="script.js"></script>
 </body>
 </html>
